@@ -5,13 +5,18 @@ Installation:
   pipenv install 
   Then pipenv shell  (To activate this project's virtualenv, )
   then python UcdUtil.py
+  
+  
 Usage:
   python Ucdtil.py
   1) List all plugins avaliable for UCD -> python Ucdtil.py listallplugins
   2) Get avaliable plugin versions -> python Ucdtil.py getpluginversions --name
   3) Download a pluginn version -> python Ucdtil.py downloadplugin --name 
+  
+	
 Help:
  python Ucdtil.py commandname --help
+ 
 Example:
  python Ucdtil.py listallplugins
  ['/software/products/UrbanCode/plugins/', 'AccuRevSourceConfig/', 'AgentPropertiesCollector/']
