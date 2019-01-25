@@ -18,6 +18,7 @@ Help:
  python Ucdtil.py commandname --help
  
 Example:
+
  python Ucdtil.py listallplugins
  ['/software/products/UrbanCode/plugins/', 'AccuRevSourceConfig/', 'AgentPropertiesCollector/']
  
