@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: PIPELINE
+pipelineStages:
+- type: ENV_STATE
+  name: TakeTest
+  parallel: false
+  workflowName: TestAmazon
