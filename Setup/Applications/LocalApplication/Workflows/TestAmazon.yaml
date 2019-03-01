@@ -30,6 +30,21 @@ phases:
         subject: Hello Test From Harness
         body: Winter is coming
         toAddress: abhishek.patti@gmail.com
+    - type: HTTP
+      name: HTTP
+      properties:
+        sweepingOutputScope: null
+        responseProcessingExpressions: ''
+        method: GET
+        publishAsVar: false
+        header: ''
+        assertion: ''
+        timeoutMillis: 10000
+        body: ''
+        executeWithPreviousSteps: false
+        url: https://bluccauvs5.execute-api.us-west-1.amazonaws.com/prod
+        sweepingOutputName: null
+        templateVariables: ''
     stepsInParallel: false
   - type: DEPLOY_AWS_LAMBDA
     name: Deploy Service
