@@ -1,0 +1,13 @@
+harnessApiVersion: '1.0'
+type: AWS_LAMBDA
+defaults:
+  memorySize: 128
+  runtime: python3.6
+  timeout: 3
+functions:
+- functionName: ${app.name}_${service.name}_${env.name} <function-name>
+  handler: 'import json  def lambda_handler(event, context):     # TODO implement     return
+    {         ''statusCode'': 200,         ''body'': json.dumps(''Hello from Lambda!'')     }'
+  memorySize: 128
+  runtime: python3.6
+  timeout: 3
