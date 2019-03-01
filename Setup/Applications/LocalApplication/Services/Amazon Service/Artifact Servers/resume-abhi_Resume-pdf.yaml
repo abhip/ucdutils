@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: AMAZON_S3
+artifactPaths:
+- Resume.pdf
+bucketName: resume-abhi
+metadataOnly: true
+serverName: Amazon
