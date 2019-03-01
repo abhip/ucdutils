@@ -23,6 +23,13 @@ phases:
   phaseSteps:
   - type: PREPARE_STEPS
     name: Prepare Steps
+    steps:
+    - type: EMAIL
+      name: Email
+      properties:
+        subject: Hello Test From Harness
+        body: Winter is coming
+        toAddress: abhishek.patti@gmail.com
     stepsInParallel: false
   - type: DEPLOY_AWS_LAMBDA
     name: Deploy Service
