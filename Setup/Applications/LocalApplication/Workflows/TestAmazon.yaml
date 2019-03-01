@@ -14,6 +14,7 @@ notificationRules:
   notificationGroupAsExpression: false
   notificationGroups:
   - Account Administrator
+  userGroupAsExpression: false
 phases:
 - type: AWS_LAMBDA
   computeProviderName: Amazon
