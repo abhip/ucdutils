@@ -1,0 +1,9 @@
+harnessApiVersion: '1.0'
+type: AWS_AWS_LAMBDA
+computeProviderName: Amazon
+computeProviderType: AWS
+deploymentType: AWS_LAMBDA
+infraMappingType: AWS_AWS_LAMBDA
+region: us-west-1
+role: arn:aws:iam::095479041716:role/service-role/abhi
+serviceName: Amazon Service
