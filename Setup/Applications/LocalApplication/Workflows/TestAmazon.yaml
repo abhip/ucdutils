@@ -65,6 +65,13 @@ phases:
     stepsInParallel: false
   - type: WRAP_UP
     name: Wrap Up
+    steps:
+    - type: EMAIL
+      name: Email
+      properties:
+        subject: valar morghulis
+        body: valar morghulis
+        toAddress: abhishek.patti@gmail.com
     stepsInParallel: false
   provisionNodes: false
   serviceName: Amazon Service
